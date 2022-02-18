@@ -92,8 +92,13 @@ nav {
 
 .banner-right img {
 	width: 100%;
+    
 }
 
+.banner-right :hover{
+    transform: rotate(360deg);
+     transition: transform 1s ease-in;
+}
 /*----------------
     # main styles
 ----------------- */
