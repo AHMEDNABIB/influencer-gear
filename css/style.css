@@ -221,7 +221,15 @@ main {
 	margin: 5px 0;
 }
 
-.shareable-link {
-	margin: 5px 0;
-	color: #787885;
+.fab {
+    margin-left: 14px;
+    color: gray;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fab:hover {
+    color: black;
+
 }
