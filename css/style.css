@@ -49,53 +49,158 @@ nav {
 	padding: 15px 20px;
 }
 
-
 .button-link {
-    color: white;
-    padding: 10px 24px;
-    background: #E02C6D;
-    text-decoration: none;
-    border-radius: 25px;
+	color: white;
+	padding: 10px 24px;
+	background: #e02c6d;
+	text-decoration: none;
+	border-radius: 25px;
 }
 
 .button-link:hover {
-    background-color: #6b1534;
-
+	background-color: #6b1534;
 }
 
-
-.banner{
-  
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.banner {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.banner-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.banner-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 
-.banner-left h1{
-    font-size: 45px;
-  
+.banner-left h1 {
+	font-size: 45px;
 }
 
-.banner-left p{
-    font-size: 18px;
-    
-    line-height: 1.5;
-    margin: 20px 0;
+.banner-left p {
+	font-size: 18px;
 
+	line-height: 1.5;
+	margin: 20px 0;
 }
 
-.banner-right{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.banner-right {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
 
-.banner-right img{
-    width: 100%;
+.banner-right img {
+	width: 100%;
+}
+
+/*----------------
+    # main styles
+----------------- */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*---------------- 
+ Influencer  arena styles 
+ ------------------*/
+
+.container {
+	max-width: 1312px;
+}
+
+.collection-arena {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.section-title {
+	font-weight: 600;
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+
+.collections {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 30px;
+	grid-row-gap: 27px;
+}
+
+.collection {
+	width: 330px;
+	height: 474px;
+	padding: 15px;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.collection .thumbnail {
+	width: 100%;
+}
+
+.collection .collection-name {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.collection .collection-price {
+	font-size: 24px;
+}
+
+.fa-star {
+	font-size: 12px;
+}
+
+.fa-star.filled {
+	color: #ffc014;
+}
+
+.fa-star.empty {
+	color: #aeaeae;
+}
+
+.collection-details {
+	font-weight: bold;
+	font-size: 14px;
+	color: #787885;
+}
+
+.next-link {
+	color: #e02c6dde;
+
+	text-decoration: none;
+	/* align-items: right; */
+	margin-top: 50px;
+	margin-left: 900px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #0b0d17;
+	padding: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.footer h2 {
+	color: #99c1da;
+	margin-bottom: 5px;
+}
+
+.footer p {
+	color: #91939c;
+	margin: 5px 0;
+}
+
+.shareable-link {
+	margin: 5px 0;
+	color: #787885;
 }
