@@ -119,9 +119,10 @@ main {
 }
 
 .section-title {
+	text-align: center;
 	font-weight: 600;
 	font-size: 28px;
-	margin-bottom: 25px;
+	margin: 25px;
 }
 
 .collections {
@@ -179,6 +180,25 @@ main {
 	margin-left: 900px;
 	font-weight: bold;
 	font-size: 16px;
+}
+
+/* gallery part css */
+.gallery-title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 28px;
+	margin: 25px;
+}
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.photo img {
+	width: 100%;
+	height: 200px;
+	/* object-fit: cover; */
+	border: 3px solid #201c1e;
 }
 
 /* Footer */
