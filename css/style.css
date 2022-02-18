@@ -29,11 +29,7 @@ nav {
 	align-items: center;
 }
 
-.header-name {
-	height: 52px;
-	width: 243px;
-	left: 120px;
-}
+/*  */
 
 .navigation {
 	display: flex;
@@ -97,7 +93,7 @@ nav {
 
 .banner-right :hover{
     transform: rotate(360deg);
-     transition: transform 1s ease-in;
+     transition: transform 3s ease-in;
 }
 /*----------------
     # main styles
